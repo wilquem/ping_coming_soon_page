@@ -6,4 +6,4 @@ Design feito pela Fronend Mentor:
 
 Design feito por mim:
 
-<img src="https://user-images.githubusercontent.com/93217081/155892424-2a63b378-055c-4b0c-86c7-a1b6ded6c753.png">
+<img src="https://user-images.githubusercontent.com/93217081/155892489-1a5b609e-27e7-40da-9eac-13c1b5af0458.png">
