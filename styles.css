@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5rem;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color:hsl(209, 33%, 12%);
+    transition: 0.3s;
+    cursor:pointer
+}
+
+
+.dot {
+    color:hsl(223, 87%, 63%)
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 3rem;
+    color:hsl(0, 0%, 59%);
+    line-height: 4rem;
+}
+
+.soon {
+    font-weight: 600;
+    color:hsl(209, 33%, 12%)
+}
+
+.texts p {
+    color:hsl(209, 33%, 12%);
+    margin-bottom: 1.5rem;
+}
+
+.email {
+    display: flex;
+}
+
+.colocarTexto {
+    height:2.7rem ;
+    width:20rem;
+    padding:1rem;
+    font-size: 16px;
+    margin: 0 1rem 0 0;
+    border-radius:2rem;
+    border: 1px solid hsl(0, 0%, 81%);
+    outline: none;
+}
+
+.notifyMe {
+    padding:0.5rem 2rem 0.5rem 2rem;
+    color:#FFF;
+    font-weight: 600;
+    background-color:hsl(223, 87%, 63%);
+    border: none;
+    border-radius: 2rem;
+    cursor:pointer;
+    box-shadow:0 0 1em rgba(194,211,255,1);
+    transition: 0.4s;
+}
+
+.notifyMe:hover {
+    box-shadow: 0 0 0;
+}
+
+.imagem-main {
+    height: 20rem;
+    margin-top: 3rem;
+    position:relative ;
+    transition: 0.5s;
+}
+
+.imagem-main:hover {
+    transform:scale(1.05);
+}
+
+footer {
+    font-size: 12px;
+    margin-top:13rem;
+    color:hsl(0, 0%, 59%);
+
+}
+
+footer p a{
+    position: relative;
+    color:hsl(223, 87%, 63%);
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 32px
+    }
+
+    .email{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .colocarTexto {
+        height: 2.7rem;
+        width: 18rem;
+        margin-bottom:1rem;
+        text-align: center;
+    }
+
+    .notifyMe {
+        width: 18rem ;
+        height: 3rem;
+        text-align: center;
+    }
+
+    .imagem-main {
+        height: 14rem;
+    }
+
+    .imagem-main:hover {
+        transform: scale(1);
+    }
+}
