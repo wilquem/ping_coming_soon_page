@@ -2,7 +2,7 @@
 
 Design feito pela Fronend Mentor:
 
-<img src="C:\Users\wilqu\Desktop\ping-coming-soon-page-master\design\desktop-design.jpg">
+<img src="https://user-images.githubusercontent.com/93217081/155892451-921a5689-318d-480a-a24a-2de773b0fe36.jpg">
 
 Design feito por mim:
 
